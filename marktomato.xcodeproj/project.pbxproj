@@ -1,0 +1,1072 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D3612A1CDF38D7687013234 /* Pods_marktomatoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A96A5F902703575092BE9B5 /* Pods_marktomatoTests.framework */; };
+		6A25BE8A4B2477778CF63C7E /* Pods_marktomato_marktomatoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFC70CD6795D1DD10C651E8 /* Pods_marktomato_marktomatoUITests.framework */; };
+		9E61A25C243C2394006D135C /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E61A25A243C2394006D135C /* libxml2.tbd */; };
+		9E61A25D243C2394006D135C /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E61A25B243C2394006D135C /* libxml2.2.tbd */; };
+		9E61A25E243C2401006D135C /* TFHppleElement.h in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD26243AF959003771D1 /* TFHppleElement.h */; };
+		9E61A25F243C2401006D135C /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD27243AF959003771D1 /* TFHpple.m */; };
+		9E61A260243C2401006D135C /* XPathQuery.h in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD28243AF959003771D1 /* XPathQuery.h */; };
+		9E61A261243C2401006D135C /* TFHpple.h in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD29243AF959003771D1 /* TFHpple.h */; };
+		9E61A262243C2401006D135C /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD2A243AF959003771D1 /* TFHppleElement.m */; };
+		9E61A263243C2401006D135C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD2B243AF959003771D1 /* XPathQuery.m */; };
+		9E61A265243C5886006D135C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E61A264243C5885006D135C /* Assets.xcassets */; };
+		AF2380E13764FAB2BA343285 /* Pods_marktomato.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B05605F3EA10905DD5FA98C /* Pods_marktomato.framework */; };
+		D6C2BCC0243AF8A1003771D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BCBF243AF8A1003771D1 /* AppDelegate.m */; };
+		D6C2BCC6243AF8A1003771D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BCC5243AF8A1003771D1 /* ViewController.m */; };
+		D6C2BCC9243AF8A1003771D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C2BCC7243AF8A1003771D1 /* Main.storyboard */; };
+		D6C2BCCE243AF8A7003771D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C2BCCC243AF8A7003771D1 /* LaunchScreen.storyboard */; };
+		D6C2BCD1243AF8A7003771D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BCD0243AF8A7003771D1 /* main.m */; };
+		D6C2BCDB243AF8A7003771D1 /* marktomatoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BCDA243AF8A7003771D1 /* marktomatoTests.m */; };
+		D6C2BCE6243AF8A7003771D1 /* marktomatoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BCE5243AF8A7003771D1 /* marktomatoUITests.m */; };
+		D6C2BD0B243AF8F9003771D1 /* AbloutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BCFB243AF8F8003771D1 /* AbloutViewController.m */; };
+		D6C2BD2D243AF959003771D1 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD11243AF957003771D1 /* HexColors.m */; };
+		D6C2BD2E243AF959003771D1 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD14243AF957003771D1 /* MenuView.m */; };
+		D6C2BD2F243AF959003771D1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD16243AF957003771D1 /* BaseViewController.m */; };
+		D6C2BD30243AF959003771D1 /* LiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD17243AF958003771D1 /* LiWebViewController.m */; };
+		D6C2BD31243AF959003771D1 /* LeftMenuViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD19243AF958003771D1 /* LeftMenuViewDemo.m */; };
+		D6C2BD32243AF959003771D1 /* SKTag.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD1E243AF958003771D1 /* SKTag.m */; };
+		D6C2BD33243AF959003771D1 /* SKTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD20243AF958003771D1 /* SKTagView.m */; };
+		D6C2BD34243AF959003771D1 /* SKTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD23243AF958003771D1 /* SKTagButton.m */; };
+		D6C2BD35243AF959003771D1 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD24243AF959003771D1 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6C2BD36243AF959003771D1 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD27243AF959003771D1 /* TFHpple.m */; };
+		D6C2BD37243AF959003771D1 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD2A243AF959003771D1 /* TFHppleElement.m */; };
+		D6C2BD38243AF959003771D1 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD2B243AF959003771D1 /* XPathQuery.m */; };
+		D6C2BD39243AF959003771D1 /* pyayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD2C243AF959003771D1 /* pyayerViewController.m */; };
+		D6C2BD3D243AF97C003771D1 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C2BD3B243AF97C003771D1 /* libicucore.A.tbd */; };
+		D6C2BD3E243AF97C003771D1 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C2BD3C243AF97C003771D1 /* libicucore.tbd */; };
+		D6C2BD41243B140E003771D1 /* LMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2BD40243B140E003771D1 /* LMovieViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6C2BCD7243AF8A7003771D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C2BCB3243AF8A1003771D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C2BCBA243AF8A1003771D1;
+			remoteInfo = marktomato;
+		};
+		D6C2BCE2243AF8A7003771D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C2BCB3243AF8A1003771D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C2BCBA243AF8A1003771D1;
+			remoteInfo = marktomato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EFC70CD6795D1DD10C651E8 /* Pods_marktomato_marktomatoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marktomato_marktomatoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A96A5F902703575092BE9B5 /* Pods_marktomatoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marktomatoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6119F3647A65BA19D1106BA2 /* Pods-marktomato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marktomato.debug.xcconfig"; path = "Target Support Files/Pods-marktomato/Pods-marktomato.debug.xcconfig"; sourceTree = "<group>"; };
+		6680D6B4F346EBACCEB827BC /* Pods-marktomato-marktomatoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marktomato-marktomatoUITests.debug.xcconfig"; path = "Target Support Files/Pods-marktomato-marktomatoUITests/Pods-marktomato-marktomatoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B05605F3EA10905DD5FA98C /* Pods_marktomato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marktomato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E61A25A243C2394006D135C /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		9E61A25B243C2394006D135C /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		9E61A264243C5885006D135C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../TomatoMark/LKPlayer/Assets.xcassets; sourceTree = "<group>"; };
+		AB5A15B202AEA5FD47618E72 /* Pods-marktomatoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marktomatoTests.debug.xcconfig"; path = "Target Support Files/Pods-marktomatoTests/Pods-marktomatoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C2BCBB243AF8A1003771D1 /* marktomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marktomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C2BCBE243AF8A1003771D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6C2BCBF243AF8A1003771D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6C2BCC4243AF8A1003771D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6C2BCC5243AF8A1003771D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6C2BCC8243AF8A1003771D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6C2BCCD243AF8A7003771D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6C2BCCF243AF8A7003771D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C2BCD0243AF8A7003771D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6C2BCD6243AF8A7003771D1 /* marktomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marktomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C2BCDA243AF8A7003771D1 /* marktomatoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marktomatoTests.m; sourceTree = "<group>"; };
+		D6C2BCDC243AF8A7003771D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C2BCE1243AF8A7003771D1 /* marktomatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marktomatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C2BCE5243AF8A7003771D1 /* marktomatoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marktomatoUITests.m; sourceTree = "<group>"; };
+		D6C2BCE7243AF8A7003771D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C2BCF9243AF8F7003771D1 /* AbloutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbloutViewController.h; sourceTree = "<group>"; };
+		D6C2BCFB243AF8F8003771D1 /* AbloutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbloutViewController.m; sourceTree = "<group>"; };
+		D6C2BD10243AF957003771D1 /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		D6C2BD11243AF957003771D1 /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
+		D6C2BD12243AF957003771D1 /* LiWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiWebViewController.h; sourceTree = "<group>"; };
+		D6C2BD14243AF957003771D1 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		D6C2BD15243AF957003771D1 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		D6C2BD16243AF957003771D1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D6C2BD17243AF958003771D1 /* LiWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiWebViewController.m; sourceTree = "<group>"; };
+		D6C2BD18243AF958003771D1 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		D6C2BD19243AF958003771D1 /* LeftMenuViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewDemo.m; sourceTree = "<group>"; };
+		D6C2BD1A243AF958003771D1 /* LeftMenuViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewDemo.h; sourceTree = "<group>"; };
+		D6C2BD1B243AF958003771D1 /* pyayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pyayerViewController.h; sourceTree = "<group>"; };
+		D6C2BD1C243AF958003771D1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D6C2BD1E243AF958003771D1 /* SKTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTag.m; sourceTree = "<group>"; };
+		D6C2BD1F243AF958003771D1 /* SKTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTagButton.h; sourceTree = "<group>"; };
+		D6C2BD20243AF958003771D1 /* SKTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTagView.m; sourceTree = "<group>"; };
+		D6C2BD21243AF958003771D1 /* SKTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTag.h; sourceTree = "<group>"; };
+		D6C2BD22243AF958003771D1 /* SKTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTagView.h; sourceTree = "<group>"; };
+		D6C2BD23243AF958003771D1 /* SKTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTagButton.m; sourceTree = "<group>"; };
+		D6C2BD24243AF959003771D1 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		D6C2BD26243AF959003771D1 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		D6C2BD27243AF959003771D1 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		D6C2BD28243AF959003771D1 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		D6C2BD29243AF959003771D1 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		D6C2BD2A243AF959003771D1 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		D6C2BD2B243AF959003771D1 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		D6C2BD2C243AF959003771D1 /* pyayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pyayerViewController.m; sourceTree = "<group>"; };
+		D6C2BD3B243AF97C003771D1 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		D6C2BD3C243AF97C003771D1 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		D6C2BD3F243B140E003771D1 /* LMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMovieViewController.h; sourceTree = "<group>"; };
+		D6C2BD40243B140E003771D1 /* LMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMovieViewController.m; sourceTree = "<group>"; };
+		DBF1A3ECFFF036F2EBCDBE27 /* Pods-marktomato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marktomato.release.xcconfig"; path = "Target Support Files/Pods-marktomato/Pods-marktomato.release.xcconfig"; sourceTree = "<group>"; };
+		DD92EF4907BE7C1DF48CB0BD /* Pods-marktomatoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marktomatoTests.release.xcconfig"; path = "Target Support Files/Pods-marktomatoTests/Pods-marktomatoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E78D6BC6B62BF67D624E4519 /* Pods-marktomato-marktomatoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marktomato-marktomatoUITests.release.xcconfig"; path = "Target Support Files/Pods-marktomato-marktomatoUITests/Pods-marktomato-marktomatoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C2BCB8243AF8A1003771D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C2BD3D243AF97C003771D1 /* libicucore.A.tbd in Frameworks */,
+				D6C2BD3E243AF97C003771D1 /* libicucore.tbd in Frameworks */,
+				AF2380E13764FAB2BA343285 /* Pods_marktomato.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C2BCD3243AF8A7003771D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3612A1CDF38D7687013234 /* Pods_marktomatoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C2BCDE243AF8A7003771D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E61A25C243C2394006D135C /* libxml2.tbd in Frameworks */,
+				9E61A25D243C2394006D135C /* libxml2.2.tbd in Frameworks */,
+				6A25BE8A4B2477778CF63C7E /* Pods_marktomato_marktomatoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524BF00938BCB09EB3D6B2A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6119F3647A65BA19D1106BA2 /* Pods-marktomato.debug.xcconfig */,
+				DBF1A3ECFFF036F2EBCDBE27 /* Pods-marktomato.release.xcconfig */,
+				6680D6B4F346EBACCEB827BC /* Pods-marktomato-marktomatoUITests.debug.xcconfig */,
+				E78D6BC6B62BF67D624E4519 /* Pods-marktomato-marktomatoUITests.release.xcconfig */,
+				AB5A15B202AEA5FD47618E72 /* Pods-marktomatoTests.debug.xcconfig */,
+				DD92EF4907BE7C1DF48CB0BD /* Pods-marktomatoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6C2BCB2243AF8A1003771D1 = {
+			isa = PBXGroup;
+			children = (
+				D6C2BCBD243AF8A1003771D1 /* marktomato */,
+				D6C2BCD9243AF8A7003771D1 /* marktomatoTests */,
+				D6C2BCE4243AF8A7003771D1 /* marktomatoUITests */,
+				D6C2BCBC243AF8A1003771D1 /* Products */,
+				D6C2BD3A243AF97C003771D1 /* Frameworks */,
+				524BF00938BCB09EB3D6B2A8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C2BCBC243AF8A1003771D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2BCBB243AF8A1003771D1 /* marktomato.app */,
+				D6C2BCD6243AF8A7003771D1 /* marktomatoTests.xctest */,
+				D6C2BCE1243AF8A7003771D1 /* marktomatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C2BCBD243AF8A1003771D1 /* marktomato */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2BD25243AF959003771D1 /* html */,
+				D6C2BD13243AF957003771D1 /* Menu */,
+				D6C2BD1D243AF958003771D1 /* SCKTAG */,
+				D6C2BD1C243AF958003771D1 /* BaseViewController.h */,
+				D6C2BD16243AF957003771D1 /* BaseViewController.m */,
+				D6C2BD18243AF958003771D1 /* RegexKitLite.h */,
+				D6C2BD24243AF959003771D1 /* RegexKitLite.m */,
+				D6C2BD10243AF957003771D1 /* HexColors.h */,
+				D6C2BD11243AF957003771D1 /* HexColors.m */,
+				D6C2BD1A243AF958003771D1 /* LeftMenuViewDemo.h */,
+				D6C2BD19243AF958003771D1 /* LeftMenuViewDemo.m */,
+				D6C2BD12243AF957003771D1 /* LiWebViewController.h */,
+				D6C2BD17243AF958003771D1 /* LiWebViewController.m */,
+				D6C2BD3F243B140E003771D1 /* LMovieViewController.h */,
+				D6C2BD40243B140E003771D1 /* LMovieViewController.m */,
+				D6C2BD1B243AF958003771D1 /* pyayerViewController.h */,
+				D6C2BD2C243AF959003771D1 /* pyayerViewController.m */,
+				D6C2BCF9243AF8F7003771D1 /* AbloutViewController.h */,
+				D6C2BCFB243AF8F8003771D1 /* AbloutViewController.m */,
+				D6C2BCBE243AF8A1003771D1 /* AppDelegate.h */,
+				D6C2BCBF243AF8A1003771D1 /* AppDelegate.m */,
+				D6C2BCC4243AF8A1003771D1 /* ViewController.h */,
+				D6C2BCC5243AF8A1003771D1 /* ViewController.m */,
+				D6C2BCC7243AF8A1003771D1 /* Main.storyboard */,
+				D6C2BCCC243AF8A7003771D1 /* LaunchScreen.storyboard */,
+				9E61A264243C5885006D135C /* Assets.xcassets */,
+				D6C2BCCF243AF8A7003771D1 /* Info.plist */,
+				D6C2BCD0243AF8A7003771D1 /* main.m */,
+			);
+			path = marktomato;
+			sourceTree = "<group>";
+		};
+		D6C2BCD9243AF8A7003771D1 /* marktomatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2BCDA243AF8A7003771D1 /* marktomatoTests.m */,
+				D6C2BCDC243AF8A7003771D1 /* Info.plist */,
+			);
+			path = marktomatoTests;
+			sourceTree = "<group>";
+		};
+		D6C2BCE4243AF8A7003771D1 /* marktomatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2BCE5243AF8A7003771D1 /* marktomatoUITests.m */,
+				D6C2BCE7243AF8A7003771D1 /* Info.plist */,
+			);
+			path = marktomatoUITests;
+			sourceTree = "<group>";
+		};
+		D6C2BD13243AF957003771D1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2BD14243AF957003771D1 /* MenuView.m */,
+				D6C2BD15243AF957003771D1 /* MenuView.h */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D6C2BD1D243AF958003771D1 /* SCKTAG */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2BD1E243AF958003771D1 /* SKTag.m */,
+				D6C2BD1F243AF958003771D1 /* SKTagButton.h */,
+				D6C2BD20243AF958003771D1 /* SKTagView.m */,
+				D6C2BD21243AF958003771D1 /* SKTag.h */,
+				D6C2BD22243AF958003771D1 /* SKTagView.h */,
+				D6C2BD23243AF958003771D1 /* SKTagButton.m */,
+			);
+			path = SCKTAG;
+			sourceTree = "<group>";
+		};
+		D6C2BD25243AF959003771D1 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2BD26243AF959003771D1 /* TFHppleElement.h */,
+				D6C2BD27243AF959003771D1 /* TFHpple.m */,
+				D6C2BD28243AF959003771D1 /* XPathQuery.h */,
+				D6C2BD29243AF959003771D1 /* TFHpple.h */,
+				D6C2BD2A243AF959003771D1 /* TFHppleElement.m */,
+				D6C2BD2B243AF959003771D1 /* XPathQuery.m */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		D6C2BD3A243AF97C003771D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E61A25B243C2394006D135C /* libxml2.2.tbd */,
+				9E61A25A243C2394006D135C /* libxml2.tbd */,
+				D6C2BD3B243AF97C003771D1 /* libicucore.A.tbd */,
+				D6C2BD3C243AF97C003771D1 /* libicucore.tbd */,
+				7B05605F3EA10905DD5FA98C /* Pods_marktomato.framework */,
+				2EFC70CD6795D1DD10C651E8 /* Pods_marktomato_marktomatoUITests.framework */,
+				3A96A5F902703575092BE9B5 /* Pods_marktomatoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C2BCBA243AF8A1003771D1 /* marktomato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C2BCEA243AF8A7003771D1 /* Build configuration list for PBXNativeTarget "marktomato" */;
+			buildPhases = (
+				AEACCB70DD7324A6BBF84EFE /* [CP] Check Pods Manifest.lock */,
+				D6C2BCB7243AF8A1003771D1 /* Sources */,
+				D6C2BCB8243AF8A1003771D1 /* Frameworks */,
+				D6C2BCB9243AF8A1003771D1 /* Resources */,
+				7A4B1D6D5984004D24BAC0AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marktomato;
+			productName = marktomato;
+			productReference = D6C2BCBB243AF8A1003771D1 /* marktomato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6C2BCD5243AF8A7003771D1 /* marktomatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C2BCED243AF8A7003771D1 /* Build configuration list for PBXNativeTarget "marktomatoTests" */;
+			buildPhases = (
+				02489770EC633EC7B0B6174D /* [CP] Check Pods Manifest.lock */,
+				D6C2BCD2243AF8A7003771D1 /* Sources */,
+				D6C2BCD3243AF8A7003771D1 /* Frameworks */,
+				D6C2BCD4243AF8A7003771D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C2BCD8243AF8A7003771D1 /* PBXTargetDependency */,
+			);
+			name = marktomatoTests;
+			productName = marktomatoTests;
+			productReference = D6C2BCD6243AF8A7003771D1 /* marktomatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6C2BCE0243AF8A7003771D1 /* marktomatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C2BCF0243AF8A7003771D1 /* Build configuration list for PBXNativeTarget "marktomatoUITests" */;
+			buildPhases = (
+				3F8C91EBB093CB33917D8D0A /* [CP] Check Pods Manifest.lock */,
+				D6C2BCDD243AF8A7003771D1 /* Sources */,
+				D6C2BCDE243AF8A7003771D1 /* Frameworks */,
+				D6C2BCDF243AF8A7003771D1 /* Resources */,
+				1CCAA7BEAD837E71AE317F53 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C2BCE3243AF8A7003771D1 /* PBXTargetDependency */,
+			);
+			name = marktomatoUITests;
+			productName = marktomatoUITests;
+			productReference = D6C2BCE1243AF8A7003771D1 /* marktomatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C2BCB3243AF8A1003771D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = libing;
+				TargetAttributes = {
+					D6C2BCBA243AF8A1003771D1 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					D6C2BCD5243AF8A7003771D1 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = D6C2BCBA243AF8A1003771D1;
+					};
+					D6C2BCE0243AF8A7003771D1 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = D6C2BCBA243AF8A1003771D1;
+					};
+				};
+			};
+			buildConfigurationList = D6C2BCB6243AF8A1003771D1 /* Build configuration list for PBXProject "marktomato" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C2BCB2243AF8A1003771D1;
+			productRefGroup = D6C2BCBC243AF8A1003771D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C2BCBA243AF8A1003771D1 /* marktomato */,
+				D6C2BCD5243AF8A7003771D1 /* marktomatoTests */,
+				D6C2BCE0243AF8A7003771D1 /* marktomatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C2BCB9243AF8A1003771D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C2BCCE243AF8A7003771D1 /* LaunchScreen.storyboard in Resources */,
+				9E61A265243C5886006D135C /* Assets.xcassets in Resources */,
+				D6C2BCC9243AF8A1003771D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C2BCD4243AF8A7003771D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C2BCDF243AF8A7003771D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02489770EC633EC7B0B6174D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-marktomatoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CCAA7BEAD837E71AE317F53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-marktomato-marktomatoUITests/Pods-marktomato-marktomatoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F8C91EBB093CB33917D8D0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-marktomato-marktomatoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4B1D6D5984004D24BAC0AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-marktomato/Pods-marktomato-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEACCB70DD7324A6BBF84EFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-marktomato-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C2BCB7243AF8A1003771D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C2BD35243AF959003771D1 /* RegexKitLite.m in Sources */,
+				D6C2BD41243B140E003771D1 /* LMovieViewController.m in Sources */,
+				D6C2BD32243AF959003771D1 /* SKTag.m in Sources */,
+				D6C2BD39243AF959003771D1 /* pyayerViewController.m in Sources */,
+				D6C2BCC6243AF8A1003771D1 /* ViewController.m in Sources */,
+				D6C2BD2F243AF959003771D1 /* BaseViewController.m in Sources */,
+				D6C2BD33243AF959003771D1 /* SKTagView.m in Sources */,
+				D6C2BD0B243AF8F9003771D1 /* AbloutViewController.m in Sources */,
+				D6C2BD31243AF959003771D1 /* LeftMenuViewDemo.m in Sources */,
+				D6C2BCC0243AF8A1003771D1 /* AppDelegate.m in Sources */,
+				D6C2BD37243AF959003771D1 /* TFHppleElement.m in Sources */,
+				D6C2BD2D243AF959003771D1 /* HexColors.m in Sources */,
+				D6C2BD30243AF959003771D1 /* LiWebViewController.m in Sources */,
+				D6C2BD36243AF959003771D1 /* TFHpple.m in Sources */,
+				D6C2BCD1243AF8A7003771D1 /* main.m in Sources */,
+				D6C2BD34243AF959003771D1 /* SKTagButton.m in Sources */,
+				D6C2BD2E243AF959003771D1 /* MenuView.m in Sources */,
+				D6C2BD38243AF959003771D1 /* XPathQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C2BCD2243AF8A7003771D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C2BCDB243AF8A7003771D1 /* marktomatoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C2BCDD243AF8A7003771D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E61A25E243C2401006D135C /* TFHppleElement.h in Sources */,
+				9E61A25F243C2401006D135C /* TFHpple.m in Sources */,
+				9E61A260243C2401006D135C /* XPathQuery.h in Sources */,
+				9E61A261243C2401006D135C /* TFHpple.h in Sources */,
+				9E61A262243C2401006D135C /* TFHppleElement.m in Sources */,
+				9E61A263243C2401006D135C /* XPathQuery.m in Sources */,
+				D6C2BCE6243AF8A7003771D1 /* marktomatoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6C2BCD8243AF8A7003771D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C2BCBA243AF8A1003771D1 /* marktomato */;
+			targetProxy = D6C2BCD7243AF8A7003771D1 /* PBXContainerItemProxy */;
+		};
+		D6C2BCE3243AF8A7003771D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C2BCBA243AF8A1003771D1 /* marktomato */;
+			targetProxy = D6C2BCE2243AF8A7003771D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6C2BCC7243AF8A1003771D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C2BCC8243AF8A1003771D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6C2BCCC243AF8A7003771D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C2BCCD243AF8A7003771D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6C2BCE8243AF8A7003771D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6C2BCE9243AF8A7003771D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C2BCEB243AF8A7003771D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6119F3647A65BA19D1106BA2 /* Pods-marktomato.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J26L34M68;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer/KTVCocoaHTTPServer.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KTVHTTPCache/KTVHTTPCache.framework/Headers\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = marktomato/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CoreAudio\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"KTVCocoaHTTPServer\"",
+					"-framework",
+					"\"KTVHTTPCache\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PLPlayerKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marktomato.marktomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6C2BCEC243AF8A7003771D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF1A3ECFFF036F2EBCDBE27 /* Pods-marktomato.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J26L34M68;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer/KTVCocoaHTTPServer.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KTVHTTPCache/KTVHTTPCache.framework/Headers\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = marktomato/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CoreAudio\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"KTVCocoaHTTPServer\"",
+					"-framework",
+					"\"KTVHTTPCache\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PLPlayerKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marktomato.marktomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6C2BCEE243AF8A7003771D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5A15B202AEA5FD47618E72 /* Pods-marktomatoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J26L34M68;
+				INFOPLIST_FILE = marktomatoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marktomato.marktomatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marktomato.app/marktomato";
+			};
+			name = Debug;
+		};
+		D6C2BCEF243AF8A7003771D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD92EF4907BE7C1DF48CB0BD /* Pods-marktomatoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J26L34M68;
+				INFOPLIST_FILE = marktomatoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marktomato.marktomatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marktomato.app/marktomato";
+			};
+			name = Release;
+		};
+		D6C2BCF1243AF8A7003771D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6680D6B4F346EBACCEB827BC /* Pods-marktomato-marktomatoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J26L34M68;
+				HEADER_SEARCH_PATHS = "${SDK_ROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = marktomatoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CoreAudio\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"KTVCocoaHTTPServer\"",
+					"-framework",
+					"\"KTVHTTPCache\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PLPlayerKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marktomato.marktomatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marktomato;
+			};
+			name = Debug;
+		};
+		D6C2BCF2243AF8A7003771D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78D6BC6B62BF67D624E4519 /* Pods-marktomato-marktomatoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J26L34M68;
+				HEADER_SEARCH_PATHS = "${SDK_ROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = marktomatoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CoreAudio\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"KTVCocoaHTTPServer\"",
+					"-framework",
+					"\"KTVHTTPCache\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PLPlayerKit\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marktomato.marktomatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marktomato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C2BCB6243AF8A1003771D1 /* Build configuration list for PBXProject "marktomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C2BCE8243AF8A7003771D1 /* Debug */,
+				D6C2BCE9243AF8A7003771D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C2BCEA243AF8A7003771D1 /* Build configuration list for PBXNativeTarget "marktomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C2BCEB243AF8A7003771D1 /* Debug */,
+				D6C2BCEC243AF8A7003771D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C2BCED243AF8A7003771D1 /* Build configuration list for PBXNativeTarget "marktomatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C2BCEE243AF8A7003771D1 /* Debug */,
+				D6C2BCEF243AF8A7003771D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C2BCF0243AF8A7003771D1 /* Build configuration list for PBXNativeTarget "marktomatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C2BCF1243AF8A7003771D1 /* Debug */,
+				D6C2BCF2243AF8A7003771D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C2BCB3243AF8A1003771D1 /* Project object */;
+}

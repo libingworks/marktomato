@@ -1,0 +1,6 @@
+framework module Pods_marktomatoTests {
+  umbrella header "Pods-marktomatoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,33 @@
+PODS:
+  - CocoaAsyncSocket (7.6.4)
+  - KTVCocoaHTTPServer (1.0.0):
+    - CocoaAsyncSocket
+  - KTVHTTPCache (2.0.1):
+    - KTVCocoaHTTPServer
+  - PLPlayerKit (3.4.3):
+    - PLPlayerKit/universal (= 3.4.3)
+  - PLPlayerKit/universal (3.4.3)
+
+DEPENDENCIES:
+  - KTVHTTPCache (~> 2.0.0)
+  - PLPlayerKit (from `https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - KTVCocoaHTTPServer
+    - KTVHTTPCache
+
+EXTERNAL SOURCES:
+  PLPlayerKit:
+    :podspec: https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
+  KTVHTTPCache: 588c3eb16f6bd1e6fde1e230dabfb7bd4e490a4d
+  PLPlayerKit: 5eecac081fbf4dc88a142887f82c4095d9095887
+
+PODFILE CHECKSUM: 4a60543bff44666f8b0d57f6ec73415bdb1e4a98
+
+COCOAPODS: 1.9.1

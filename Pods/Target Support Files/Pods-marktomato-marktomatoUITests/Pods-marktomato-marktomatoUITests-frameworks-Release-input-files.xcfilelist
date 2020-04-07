@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-marktomato-marktomatoUITests/Pods-marktomato-marktomatoUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/KTVCocoaHTTPServer/KTVCocoaHTTPServer.framework
+${BUILT_PRODUCTS_DIR}/KTVHTTPCache/KTVHTTPCache.framework
+${PODS_ROOT}/PLPlayerKit/Pod/Library-Universal/PLPlayerKit.framework
